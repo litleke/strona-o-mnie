@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #E0DBBA;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    margin: 2% 49% 0 21%;
+    background-color: #E0D2BA;
+    text-align: center;
+    font-size: 50px;
+    border: black 2px solid;
+    border-radius: 1rem;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 80px auto 50px;
+    grid-template-areas:
+    "main main links"
+    ;
+}
+
+.AboutWebsite {
+    margin: 2% 0 0 2%;
+    padding: 6%;
+    grid-area: main;
+    text-align: center;
+    font-size: 50px;
+    background-color: #E0D2BA;
+    border: 1px black solid;
+    border-radius: 1rem;
+}
+
+.AboutMe {
+    margin: 2% 0 0 2%;
+    padding: 6%;
+    grid-area: main;
+    text-align: center;
+    font-size: 25px;
+    background-color: #E0D2BA;
+    border: 1px black solid;
+    border-radius: 1rem;
+}
+
+.links {
+    margin: 2% 7% 0 7%;
+    grid-area: links;
+    font-size: 45px;
+    text-align: center;
+}
+
+.odnosnik {
+    margin: 7% 0;
+    background-color: #E0D2BA;
+    transition-duration: 1s;
+    list-style-type: none;
+    border: 2px black solid;
+    border-radius: 1rem;
+}
+
+.odnosnik:hover{
+    background-color: #E3CF91;
+}
+
+a{
+    margin: 0.3rem;
+    display: block;
+    text-decoration: none;
+    color: black;
+
+}
+
+.ciekawostkaleft{
+    margin: 2%;
+    float: left;
+    max-width: 70%;
+    font-size: 30px;
+}
+
+.ciekawostkaright{
+    margin: 2%;
+    float: right;
+    max-width: 70%;
+    font-size: 30px;
+}
+
+.formularz{
+    display: block;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 2% 0 0 4%;
+    background-color: #E0D2BA;
+    border: 1px solid black;
+    border-radius: 1rem;
+    width: 60%;
+}
+
+.pianisci{
+    margin: 2% 0 0 4%;
+    padding: 3%;
+    grid-area: main;
+    text-align: center;
+    font-size: 30px;
+    background-color: #E0D2BA;
+    border-radius: 1rem;
+}
+
+img{
+    max-width: 100px;
+    max-height: 150px;
+    display: inline;
+}
+
+.formkontakt{
+    display: block;
+    flex-direction: column;
+}
+
+.class{
+    width: 50px;
+}
+
+textarea{
+    width: 600px;
+    height: 150px;
+}
